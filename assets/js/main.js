@@ -52,7 +52,7 @@ function Button() {
     else if(time[0]==='3'){
         alert('axsam qrupu')
         document.body.style.backgroundColor='black';
-
+        document.body.style.color='white';
 
     }
     else{
@@ -61,4 +61,28 @@ function Button() {
 
     }
     
+}
+
+
+
+
+function dark() {
+    if(document.body.style.backgroundColor='white'){
+
+    
+    document.body.style.backgroundColor='black';
+    document.body.style.color='white';
+    }
+   
+
+
+}
+function sun() {
+    if(document.body.style.backgroundColor='black'){
+
+    
+    document.body.style.backgroundColor='white';
+    document.body.style.color='black';
+   
+    }
 }

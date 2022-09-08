@@ -10,3 +10,14 @@
     border-radius: 5px;
     margin-left: 20px;
 }
+
+button{
+   
+   margin-left: 50px;
+    
+}
+button i{
+    padding: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
